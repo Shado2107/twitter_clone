@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {AiOutlineTwitter} from 'react-icons/ai';
+import {AiOutlineTwitter, AiTwotoneStar} from 'react-icons/ai';
 import {BiHomeCircle, BiHash, BiBell} from 'react-icons/bi';
 import {MdMailOutline, MdBookmarkBorder} from 'react-icons/md';
 import {FaUserCircle, FaEllipsisH} from 'react-icons/fa';
@@ -53,7 +53,22 @@ function App() {
             </div>
 
             <div className="Main_Area">
-                Main_Area
+               <div className="Home">
+                    <div className="home">
+                        Home
+                    </div>
+                    <div className="Star_icon">
+                        <AiTwotoneStar color="#1DA1F2" fontSize="2rem"/>
+                    </div>
+               </div>
+               <br></br>
+               <div className="Create_post">
+                    <div className="Add_text ">
+                        <div className="Profile">
+
+                        </div>
+                    </div>
+               </div>
             </div>
 
             <div className="Left_Sidebar_Area">

@@ -28,7 +28,7 @@ body{
 }
 
 .Sidebar_Area > div {
-  margin-top: 150px;
+  margin-top: 30px;
 }
 
 .Icons{
@@ -60,8 +60,19 @@ body{
   width: 50%;
   display: grid;
   height: 40rem;
-  background-color: coral;
 }
+.Home{
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  background-color: white;
+}
+.home{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 
 /*Left Sidebar area*/
 .Left_Sidebar_Area{
