@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {AiOutlineTwitter, AiTwotoneStar} from 'react-icons/ai';
+import {AiOutlineAlignLeft, AiOutlineDown, AiOutlineGif, AiOutlineGold, AiOutlinePicture, AiOutlineSmile, AiOutlineTwitter, AiTwotoneStar} from 'react-icons/ai';
 import {BiHomeCircle, BiHash, BiBell} from 'react-icons/bi';
 import {MdMailOutline, MdBookmarkBorder} from 'react-icons/md';
 import {FaUserCircle, FaEllipsisH} from 'react-icons/fa';
@@ -65,8 +65,45 @@ function App() {
                <div className="Create_post">
                     <div className="Add_text ">
                         <div className="Profile">
-
+                               <img src="/images/2.jpg" alt="images" style={{height:"35px", width:"35px", borderRadius:"50%"}}/>
                         </div>
+                        <input type="Post" placeholder="what's happening" />
+                    </div>
+                    <div className="Btns">
+                    <div className="Icon">
+                         <div className="Btns_icon">
+                             <AiOutlinePicture fontSize="1.5rem" color="#1DAAF2"/> 
+                         </div>
+                         <div className="Btns_icon">
+                             <AiOutlinePicture fontSize="1.5rem" color="#1DAAF2"/> 
+                         </div>
+                         <div className="Btns_icon">
+                             <AiOutlineGif fontSize="1.5rem" color="#1DAAF2"/> 
+                         </div>
+                         <div className="Btns_icon">
+                             <AiOutlineAlignLeft fontSize="1.5rem" color="#1DAAF2"/> 
+                         </div>
+                         <div className="Btns_icon">
+                             <AiOutlineSmile fontSize="1.5rem" color="#1DAAF2"/> 
+                         </div>
+                    </div>
+                    <div className="Tweets">
+                         <button className="btns-tweet">
+                              Tweet
+                         </button>
+                    </div>
+               </div>
+               </div>
+               <div className="posted_Area">
+                    <div className="Profile">
+                         <div className="User_Detail">
+                              <img src="/images/1.jpg" alt="logo" style={{ height:"30px", width:"30px", borderRadius:"50%" }}/>
+                              <div className="User_Name">Pavel Romano</div>
+                              <div className="User_id">@PavelRo</div>
+                         </div>
+                         <div className="Drop_down">
+                              <AiOutlineDown fontSize="1rem" />
+                         </div>
                     </div>
                </div>
             </div>

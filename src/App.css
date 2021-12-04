@@ -58,8 +58,8 @@ body{
 /*Main area*/
 .Main_Area{
   width: 50%;
-  display: grid;
-  height: 40rem;
+  /* display: grid;
+  height: 40rem; */
 }
 .Home{
   display: flex;
@@ -72,7 +72,40 @@ body{
   font-size: 1.2rem;
   font-weight: 600;
 }
-
+.Create_post{
+  height: 6rem;
+  display: grid;
+  background-color: white;
+  border: 1px grey solid;
+  padding: .5rem;
+}
+.Add_text{
+  display: flex;
+  align-items: center;
+}
+input[type="Post"]{
+  height: 2rem;
+  border: none;
+}
+input::placeholder{font-size: 1rem;}
+.Btns{
+  display: flex;
+  justify-content: space-between;
+}
+.Icon{
+  display: flex;
+}
+.Icon > div {
+  padding: 0 12px;
+}
+.btns-tweet{
+  background-color: #1DA1F2;
+  border: none;
+  height: 2rem;
+  padding: 0 18px;
+  border-radius: 1rem;
+  color: white;
+}
 
 /*Left Sidebar area*/
 .Left_Sidebar_Area{
