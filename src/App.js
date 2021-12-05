@@ -65,9 +65,9 @@ function App() {
                <div className="Create_post">
                     <div className="Add_text ">
                         <div className="Profile">
-                               <img src="/images/2.jpg" alt="images" style={{height:"35px", width:"35px", borderRadius:"50%"}}/>
+                               <img src="/images/2.jpg" alt="images" style={{height:"37px", width:"37px", borderRadius:"50%"}}/>
                         </div>
-                        <input type="Post" placeholder="what's happening" />
+                        <input type="Post" placeholder="what's happening"/>
                     </div>
                     <div className="Btns">
                     <div className="Icon">
@@ -86,12 +86,13 @@ function App() {
                          <div className="Btns_icon">
                              <AiOutlineSmile fontSize="1.5rem" color="#1DAAF2"/> 
                          </div>
+                         <div className="Tweets">
+                              <button className="btns-tweet">
+                                   Tweet
+                              </button>
+                         </div>
                     </div>
-                    <div className="Tweets">
-                         <button className="btns-tweet">
-                              Tweet
-                         </button>
-                    </div>
+                    
                </div>
                </div>
                <div className="posted_Area">
